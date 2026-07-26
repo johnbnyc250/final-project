@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* { margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  height: 72px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-items {
+  display: flex;
+  gap: 2.3rem;
+  margin: 40px;
+  color: #3c3c3c;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+ul {
+    list-style: none;
+}
+
+.sign-up a {
+  background-color: lab(25.9% 63.42 -77.48);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 1rem;
+    width: 64px;
+    height: 64px;
+}
+
+.logo h2 {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+ section {
+  width: 100%;
+  max-width:1200px;
+  margin: 0 auto;
+}
+.section-1-text {
+  width: 40%;
+  margin: 0 auto;
+}
+.section-1-img {
+
+  margin: 0 auto;
+  height: 100px;
+}
+
+.section-1 {
+display: flex;
+justify-content: space-between;
+margin-top: 1rem;
+}
