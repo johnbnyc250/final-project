@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.cdnfonts.com/css/satoshi');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 * { margin: 0;
@@ -27,7 +31,15 @@ navigation {
 .nav-items {
   display: flex;
   gap: 2.3rem;
-  margin: 40px;
+  margin-left: 20px;
+  margin-right: 22px;
+  color: #3c3c3c;
+}
+
+.nav-items-register {
+  display: flex;
+  gap: 2.3rem;
+  margin-left: 20px;
   color: #3c3c3c;
 }
 
@@ -65,21 +77,269 @@ ul {
 
  section {
   width: 100%;
-  max-width:1200px;
+  max-width:1180px;
   margin: 0 auto;
 }
 .section-1-text {
   width: 40%;
   margin: 0 auto;
+  padding: .8rem;
+}
+
+.section-1-text h1 {
+margin-top: 2.2rem;
+  font-weight:550;
+  font-family: 'Satoshi', sans-serif;
+  width:90%
 }
 .section-1-img {
-
   margin: 0 auto;
-  height: 100px;
+  width: 60%;
 }
+
+.section-1-description {
+    font-size: 0.9rem;
+    letter-spacing: 0.7px;
+}
+
+.section-1-img img {
+width: 100%;
+  display: block;}
 
 .section-1 {
 display: flex;
 justify-content: space-between;
-margin-top: 1rem;
+margin-top: 2rem;
+position: relative;
+}
+
+.highlight {
+    color: #433ac1;
+}
+.section-1-description {
+    margin-top: .6rem;
+color: #3c3c3c;
+margin-bottom: 1rem;
+}
+
+.section-1-btn {
+  background-color: #433ac1;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size:.77rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+.section-1-input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: 0px;
+    margin-left: 1rem;
+}
+
+.customers-logo {
+    margin-top: 0.75rem;
+}
+.customers-logo img {
+    width: 100%;
+    display: block;
+}
+.customers p {
+margin-top: 3rem;
+font-family: 'Aboreto', sans-serif;
+font-size: 1.3rem;
+font-weight: 650;
+color:#2f2f2f
+}
+
+.section-2 {
+    max-width:1050px;
+    margin-top: 4.25rem;
+}
+
+.section-2-header {
+    text-align: center;
+}
+
+.features {
+    color: #3a32ac;
+    margin-bottom: .5rem;
+}
+
+.service {
+    color: #433ac1;
+}
+
+.features-description-2 {
+    color:#3c3c3c
+    font-size: 0.9rem;
+    margin-top: .5rem;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.services {
+    display: flex;
+    width: calc((100% - 48px) / 3);
+    margin-bottom: .40rem;
+
+}
+
+.service-bio {
+    display: flex; 
+    flex-direction: column;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 24px;
+    margin-top: 2.15rem;
+}
+
+.service-img {
+    margin-top: .25rem;
+    margin-right: 1.86rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    max-height:fit-content;
+    padding: .83rem;
+    display: flex;
+    align-items: center;
+}
+
+.service-title {
+    margin-bottom: .12rem;
+    font-family: 'satoshi', sans-serif;
+    font-size: 1rem;
+}
+
+.service-description {
+    font-size:.92rem;
+}
+
+.features-description {
+    font-size: 2.1rem;
+    margin-bottom: .02rem;
+}
+
+.section-3 {
+    display: flex;
+    margin-top: 8rem;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+.section-3-hero {
+    margin: 0 auto;
+    width: 50%;
+}
+.section-3-img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.section-3-img img {
+    display: block;
+    width:100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.section-3-title {
+    color:#3a32ac;
+    font-weight: 425;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.section-3-heading {
+    letter-spacing: .05rem;
+    margin-bottom: 0.5rem;
+}
+
+.pro {
+    color: #3a32ac;
+}
+
+.section-3-bio {
+    color: #2f2f2f;
+    margin-bottom: 1.22rem;
+    width: 90%;
+}
+
+.section-4 {
+    width: 1200px;
+    display: flex;
+    margin-top: 5.25rem;
+}
+
+.steps {
+    display: flex;
+}
+
+.steps-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4-img {
+    width: 50%;
+    margin-top: 3rem;
+    margin-right: 1rem;
+}
+
+.section-4-img img {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+}
+
+.section-4-hero {
+width: 50%;
+}
+
+.steps {
+    margin-bottom: 1rem;
+}
+
+.heading {
+    color: #3a32ac;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.title {
+    letter-spacing: .09rem;
+    font-size: 2rem;
+    margin-bottom: .65rem;
+}
+
+.started {
+    color: #3a32ac;
+}
+
+.number {
+    color: #787676;
+    font-size: 2rem;
+    margin-right: 1.75rem;
+}
+
+.steps-description {
+    font-size: 1.5rem;
+
+}
+
+.steps-description p {
+    font-size: 1rem;
+    color: #525151;
 }
