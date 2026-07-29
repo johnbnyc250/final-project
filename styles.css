@@ -368,7 +368,7 @@ width: 50%;
     width: calc(100%/3);
     text-align: center;
     padding: 10px;
-
+    border: 1px solid rgb(224, 221, 221);
 
 }
 
