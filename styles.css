@@ -162,7 +162,7 @@ color:#2f2f2f
 }
 
 .section-2 {
-    max-width:1050px;
+    max-width:1200px;
     margin-top: 4.25rem;
 }
 
@@ -235,7 +235,8 @@ color:#2f2f2f
 
 .section-3 {
     display: flex;
-    margin-top: 8rem;
+    margin-top: 8.5rem;
+    margin-bottom: 8.5rem;
     max-width: 1200px;
     justify-content: space-between;
 }
@@ -258,7 +259,7 @@ color:#2f2f2f
 
 .section-3-title {
     color:#3a32ac;
-    font-weight: 425;
+    font-weight: 550;
     margin-bottom: 1rem;
     margin-top: 2rem;
 }
@@ -330,10 +331,11 @@ width: 50%;
 }
 
 .number {
-    color: #787676;
+    color: #5c5b5b;
     font-size: 2rem;
     margin-right: 1.75rem;
-    font-family: 'Satoshi';
+    font-family: 'Montserrat';
+    font-weight: 550;
 }
 
 .steps-description {
@@ -349,7 +351,7 @@ width: 50%;
 
 .section-5 {
     width: 1200px;
-    margin-top: 9.5rem;
+    margin-top: 6.5rem;
 }
 .section-5-heading {
     display: flex;
@@ -370,7 +372,7 @@ width: 50%;
     text-align: center;
     padding: 10px;
     border: 1px solid rgb(224, 221, 221);
-    background: linear-gradient(to right, #11a37c, #35f8d1) top / 100% 5px no-repeat;
+    background: linear-gradient(to right, #11a37c, #19a388) top / 100% 5px no-repeat;
     padding-top: 12px;}
   
     .pricing-cards-3 {
@@ -380,7 +382,7 @@ width: 50%;
     text-align: center;
     padding: 10px;
     border: 1px solid rgb(224, 221, 221);
-    background: linear-gradient(to right, #71200b, #f44421) top / 100% 5px no-repeat;
+    background: linear-gradient(to right, #71200b, #8e2a16) top / 100% 5px no-repeat;
     padding-top: 12px;}
 
 .pricing-cards-3 {
@@ -532,7 +534,7 @@ border-bottom: 0.15px solid;
 }
 
     .pricing-cards-2 {
-          background: linear-gradient(135deg, #122b98, #472aef);
+          background: linear-gradient(135deg, #472aef, #472aef);
 border: 1.02gpx solid rgb(187, 186, 186);
     border-radius: 13px;
     width: calc(100%/3.7);
@@ -574,7 +576,7 @@ border: 1.02gpx solid rgb(187, 186, 186);
   .section-6 {
     font-family: 'Satoshi';
     background-color: #5045f0 ;
-    margin-top: 6.5rem;
+    margin-top: 6rem;
   }
 
   .footer-wrapper {
@@ -621,3 +623,107 @@ border: 1.02gpx solid rgb(187, 186, 186);
     .copyright {
         color: white;
     }
+
+    .section-7 {
+        width: 1180px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8.5rem;
+    }
+
+    .section-7-text {
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    .section-7-text p{
+        color: #1e16b3;
+        font-weight: 500;
+        letter-spacing: .05rem;
+        font-size: 1.35rem;
+        margin-bottom: .1rem;
+        margin-top: 1.5rem;
+    }
+
+    .section-7-text h2{
+        font-size: 2.25rem;
+        margin-bottom: 0.5rem;
+    }
+     .section-7-bio {
+        color: #2f2f2f;
+        font-size: 1.1rem;
+     }
+    .principles {
+        color:#1e16b3;
+    }
+
+   
+
+    .section-7-img {
+        width: 50%;
+    }
+
+    .section-7-img img {
+        width: 100%;
+        display: block;
+    }
+
+    .incentives {
+        width: 100%;
+        margin-top: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .affordable {
+        width: 50%;
+    }
+
+    .professionalism {
+        width: 50%;
+    }
+
+    .affordable-title {
+        display: inline;
+        font-size: 1.5rem;
+        margin-bottom: .7rem;
+
+    }
+    .professionalism-title {
+        display: inline;
+        font-size: 1.5rem;
+        margin-bottom: .7rem;
+    }
+    .money  {
+        margin-right: 0.5rem;
+        font-size: 1.9rem;
+        color: #128869;
+    }
+
+    .suitcase {
+        margin-right: 0.5rem;
+    }
+
+    .affordable-bio {
+        display: block;
+        letter-spacing: .02rem;
+        word-spacing: .02rem;
+        color:#2f2f2f;
+    }
+
+     .professionalism-bio {
+        display: block;
+        letter-spacing: .02rem;
+        word-spacing: .02rem;
+        color:#2f2f2f;
+
+    }
+
+  .learn-more {
+    background-color: #1e16b3;
+    border-radius: 13px;
+    margin-top: 1.5rem;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    font-size: 0.95rem;
+  }
