@@ -372,7 +372,7 @@ width: 50%;
     text-align: center;
     padding: 10px;
     border: 1px solid rgb(224, 221, 221);
-    background: linear-gradient(to right, #11a37c, #19a388) top / 100% 5px no-repeat;
+    background: linear-gradient(to right, #27dcab, #3ef7c6) top / 100% 5px no-repeat;
     padding-top: 12px;}
   
     .pricing-cards-3 {
@@ -382,7 +382,7 @@ width: 50%;
     text-align: center;
     padding: 10px;
     border: 1px solid rgb(224, 221, 221);
-    background: linear-gradient(to right, #71200b, #8e2a16) top / 100% 5px no-repeat;
+    background: linear-gradient(to right, #d31a1a, #f04e50) top / 100% 5px no-repeat;
     padding-top: 12px;}
 
 .pricing-cards-3 {
@@ -534,7 +534,7 @@ border-bottom: 0.15px solid;
 }
 
     .pricing-cards-2 {
-          background: linear-gradient(135deg, #472aef, #472aef);
+          background: linear-gradient(135deg, #5236f3, #5236f3);
 border: 1.02gpx solid rgb(187, 186, 186);
     border-radius: 13px;
     width: calc(100%/3.7);
@@ -726,4 +726,77 @@ border: 1.02gpx solid rgb(187, 186, 186);
     color: white;
     padding: 0.8rem 1.6rem;
     font-size: 0.95rem;
+  }
+
+  .section-8 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6.5rem;
+    margin-bottom: 8.5rem;
+  }
+
+  .section-8-img {
+    width: 50%;
+  }
+
+  .section-8-img img {
+    width: 100%;
+    display: block;
+  }
+
+  .section-8-text {
+    width: 47%;
+
+  }
+
+  .testimonials {
+    margin-top: 2rem;
+    color: #3a32ac;
+    font-weight: 475;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-8-header {
+    color: #2f2f2f;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .love_us {
+    color: #3a32ac;
+  }
+
+  .ratings-header {
+    font-size: 1.3rem;
+    margin-bottom: .75rem;
+  }
+
+  .ratings-bio {
+    width: 90%;
+    font-size: 1.1rem;
+  }
+  .reviewer-pic {
+    width: 15%;
+    border-radius: 50% ;
+  }
+
+  .review-slide {
+    display: flex;
+    margin-top: 1.5rem;
+    align-items: center;
+  }
+
+.about-reviewer {
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+
+.review-occupation {
+    color: #4e4d4d;
+}
+
+  .about-reviewer {
+    display: flex;
+    flex-direction: column;
   }
