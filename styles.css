@@ -11,6 +11,11 @@
   font-family: 'Satoshi', sans-serif;
 }
 
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 navigation {
   display: flex;
   justify-content: space-between;
@@ -37,7 +42,7 @@ navigation {
   margin-left: 20px;
   margin-right: 22px;
   color: #3c3c3c;
-  font-weight: 500;
+  font-weight: 405;
 }
 
 .nav-items-register {
@@ -45,6 +50,9 @@ navigation {
   gap: 2.3rem;
   margin-left: 20px;
   color: #3c3c3c;
+}
+.nav-items-register a {
+    font-weight: 490;
 }
 
 a {
@@ -128,10 +136,10 @@ margin-bottom: 1rem;
 }
 
 .section-1-btn {
-  background-color: #433ac1;
+  background-color: #1e16b3;
   color: #fff;
   padding: 0.5rem 1rem;
-  border-radius: 8px;
+  border-radius: 12px;
   text-decoration: none;
   font-size:.77rem;
   font-family: 'Satoshi', sans-serif;
@@ -263,9 +271,10 @@ color:#2f2f2f
 
 .section-3-title {
     color:#3a32ac;
-    font-weight: 550;
+    font-weight: 475;
     margin-bottom: 1rem;
     margin-top: 2rem;
+    font-size: 1.2rem;
 }
 
 .section-3-heading {
@@ -291,7 +300,6 @@ color:#2f2f2f
 
 .steps {
     display: flex;
-    font-weight: 500;
 }
 
 .steps-description p {
@@ -322,8 +330,8 @@ width: 50%;
 
 .heading {
     color: #3a32ac;
-    font-size: 1.25rem;
-    font-weight: 500;
+    font-size: 1.23rem;
+    font-weight: 475;
 }
 
 .title {
@@ -526,7 +534,7 @@ border-bottom: 0.15px solid;
 
 .pricing {
     color: #3a32ac;
-    font-weight: 500;
+    font-weight: 475;
 }
 
 .membership-title-2 {
@@ -574,6 +582,10 @@ border: 1.02gpx solid rgb(187, 186, 186);
     margin-bottom: 1rem;
   }
 
+  .features {
+    font-weight: 475;
+    font-size: 1.17rem;
+  }
 
   .section-5-heading h1 {
     margin-bottom: 0.25rem;
@@ -582,7 +594,7 @@ border: 1.02gpx solid rgb(187, 186, 186);
   .section-6 {
     font-family: 'Satoshi';
     background-color: #5045f0 ;
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
 
   .footer-wrapper {
@@ -634,7 +646,7 @@ border: 1.02gpx solid rgb(187, 186, 186);
         width: 1180px;
         display: flex;
         justify-content: space-between;
-        margin-top: 8.5rem;
+        margin-top: 6rem;
     }
 
     .section-7-text {
@@ -644,9 +656,9 @@ border: 1.02gpx solid rgb(187, 186, 186);
 
     .section-7-text p{
         color: #1e16b3;
-        font-weight: 500;
+        font-weight: 475;
         letter-spacing: .05rem;
-        font-size: 1.35rem;
+        font-size: 1.20rem;
         margin-bottom: .1rem;
         margin-top: 1.5rem;
     }
@@ -727,7 +739,7 @@ border: 1.02gpx solid rgb(187, 186, 186);
 
   .learn-more {
     background-color: #1e16b3;
-    border-radius: 13px;
+    border-radius: 12px;
     margin-top: 1.5rem;
     color: white;
     padding: 0.8rem 1.6rem;
@@ -844,14 +856,27 @@ border: 1.02gpx solid rgb(187, 186, 186);
  
 .menu__btn {
     display: block;
+    align-items: center;
 }
 
+.section-1-input {
+    margin-bottom: 1.2rem;
+    
+}
+
+.customers-logo {
+    margin-top: 1.2rem;
+}
+
+.section-1-img {
+    scale: 0.89;
+}
 .section-2 {
     width: 95%;
 }
 
 .services-wrapper {
-    width: calc(100%/1.1);
+    width: calc(100%/0.9);
 }
    .section-3 {
     flex-direction: column;
@@ -863,44 +888,68 @@ border: 1.02gpx solid rgb(187, 186, 186);
     width: 100%;
    }
 
+   .section-1-btn {
+    padding: 0.9rem 2.2rem;
+    font-size: 0.85rem;
+   }
+
+   .learn-more {
+        padding: 0.9rem 2.2rem;
+font-size: 0.85rem;
+
+   }
+
    .services-wrapper {
     width: 100%;
     flex-direction: column;
    }
    .services {
-    margin-left: calc(100%/4.75);
+    margin-left: calc(100%/11.7);
    }
    .service-description {
-    width: 200px;
-    margin-top: 0.5rem;
+    width: 330px;
+    margin-top: 0.4rem;
    }
    .section-3-img {
-    width: 80%;
-    margin-top: 1rem;
+    width: 90%;
+    margin-top: 2.75rem;
    }
    .section-3-hero {
     width: 100%;
    }
-
+.section-4 {
+    margin-top: -3.75rem;
+}
    .section-4-img  {
-    width: 100%;
-    justify-content: center;
+    width: 90%;
     display: block;
+    margin: 0 auto;
 }
    .section-4 {
     flex-direction: column;
 justify-content: center;
 display: block;   
 width: 100%;}
+
    .section-4-hero {
     width: 100%;
+    margin-top: 1.3rem;
    }
    .section-7 {
     width: 100%;
     flex-direction: column;
+    margin-top: 1.65rem;
    }
    .section-7-text {
     width: 100%;
+    font-size: 0.9rem;
+   }
+   .affordable-bio {
+    width: 85%;
+   }
+
+   .professionalism-bio {
+    width: 83%;
    }
 
    .section-7-img {
@@ -927,21 +976,26 @@ display: block;}
 .membership-quotes {
     flex-direction: column;
     width: 100%;
-    gap: 24px;
+    gap: 120px;
+}
+.section-5-heading {
+    margin-bottom: 2rem;
 }
 .pricing-cards {
     width: 55%; 
     margin-top: 2rem;
-margin: 0 auto;}
+margin: 0 auto;
+scale: 1.23;}
 
 .pricing-cards-3 {
     width: 55%;
     margin: 0 auto;
-}
+    scale: 1.23;}
+
 .pricing-cards-2 {
     width: 55%;
     margin: 0 auto;
-
+scale: 1.23;
 }
    .section-8-text {
     width: 100%;
