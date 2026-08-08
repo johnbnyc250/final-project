@@ -861,32 +861,36 @@ border: 1.02gpx solid rgb(187, 186, 186);
     padding-right: 3rem;
    }
    .section-3-img {
-    width: 100%%;
+    width: 80%;
     margin-top: 1rem;
    }
    .section-3-hero {
     width: 100%;
    }
 
-   .section-4-img img {
+   .section-4-img  {
     width: 100%;
     justify-content: center;
     display: block;
-    margin-left: 4rem;
 }
    .section-4 {
     flex-direction: column;
 justify-content: center;
 display: block;   
-margin-left: 2rem;
 width: 100%;}
-   .section-4-hero div{
+   .section-4-hero {
     width: 100%;
    }
    .section-7 {
     width: 100%;
     flex-direction: column;
-    margin-left: 2rem;
+   }
+   .section-7-text {
+    width: 100%;
+   }
+
+   .section-7-img {
+    width: 100%;
    }
 
    .section-5-heading {
@@ -909,8 +913,7 @@ display: block;}
 .membership-quotes {
     flex-direction: column;
     width: 100%;
-    margin: 0 auto;
-    margin-left: 1rem;
+    gap: 24px;
 }
 .pricing-cards {
     width: 55%; 
@@ -926,7 +929,9 @@ margin: 0 auto;}
     margin: 0 auto;
 
 }
-   
+   .section-8-text {
+    width: 100%;
+   }
    .section-8 {
     flex-direction: column;
     margin-left: 1rem;
