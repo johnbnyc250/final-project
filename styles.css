@@ -104,9 +104,10 @@ margin-top: 2.2rem;
   width:90%
 }
 .section-1-img {
-  margin: 0 auto;
-  width: 60%;
+margin-top: 1rem;  width: 60%;
 }
+
+
 
 .section-1-description {
     font-size: 0.9rem;
@@ -904,10 +905,11 @@ font-size: 0.85rem;
     flex-direction: column;
    }
    .services {
-    margin-left: calc(100%/11.7);
+    margin-left: ;
    }
    .service-description {
-    width: 330px;
+    width: 500px;
+    text-align: left;
     margin-top: 0.4rem;
    }
    .section-3-img {
@@ -982,18 +984,18 @@ display: block;}
     margin-bottom: 2rem;
 }
 .pricing-cards {
-    width: 55%; 
+    width: 300px; 
     margin-top: 2rem;
 margin: 0 auto;
 scale: 1.23;}
 
 .pricing-cards-3 {
-    width: 55%;
+    width: 300px;
     margin: 0 auto;
     scale: 1.23;}
 
 .pricing-cards-2 {
-    width: 55%;
+    width: 300px;
     margin: 0 auto;
 scale: 1.23;
 }
