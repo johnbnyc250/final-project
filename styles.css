@@ -804,12 +804,29 @@ border: 1.02gpx solid rgb(187, 186, 186);
     color: #4e4d4d;
 }
 
+.menu__btn {
+    font-size: 2rem;
+    background-color: transparent;
+  display: none;
+}
+
+
+
   .about-reviewer {
     display: flex;
     flex-direction: column;
   }
 
   @media (max-width: 768px) {
+    section {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding-left: 16px;
+    padding-right: 16px;
+
+
+  }
     .section-1 {
         flex-direction: column;
     }
@@ -820,11 +837,13 @@ border: 1.02gpx solid rgb(187, 186, 186);
     display: none;    }
 
     .section-1 img {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
  
-
+.menu__btn {
+    display: block;
+}
    .section-2 p {
     width: 100%;
    }
@@ -842,15 +861,15 @@ border: 1.02gpx solid rgb(187, 186, 186);
     padding-right: 3rem;
    }
    .section-3-img {
-    width: 80%;
+    width: 100%%;
     margin-top: 1rem;
    }
    .section-3-hero {
-    width: 80%;
+    width: 100%;
    }
 
    .section-4-img img {
-    width: 70%;
+    width: 100%;
     justify-content: center;
     display: block;
     margin-left: 4rem;
@@ -859,12 +878,13 @@ border: 1.02gpx solid rgb(187, 186, 186);
     flex-direction: column;
 justify-content: center;
 display: block;   
-margin-left: 2rem;}
+margin-left: 2rem;
+width: 100%;}
    .section-4-hero div{
-    width: 90%;
+    width: 100%;
    }
    .section-7 {
-    width: 1000px;
+    width: 100%;
     flex-direction: column;
     margin-left: 2rem;
    }
@@ -876,11 +896,10 @@ display: block;}
 .section-5 {
     display: flex;
     flex-direction: column;
-    width: 700px;
-    margin-left: 2.4rem;
+    width: 100%;
 }
 .section-5-heading{
-    width: 75%;
+    width: 100%;
 }
 
 .section-5 p {
@@ -896,33 +915,34 @@ display: block;}
 .pricing-cards {
     width: 55%; 
     margin-top: 2rem;
-    margin-left: 3rem;
-}
+margin: 0 auto;}
 
 .pricing-cards-3 {
     width: 55%;
-    margin-top: 1rem;
-    margin-left: 3rem;
+    margin: 0 auto;
 }
 .pricing-cards-2 {
     width: 55%;
-    margin-top: 1rem;
-    margin-left: 3rem;
+    margin: 0 auto;
 
 }
    
    .section-8 {
     flex-direction: column;
     margin-left: 1rem;
+    max-width: 100%;
    }
    .section-8-img {
-    max-width: 700px;
+    width: 100%;
    }
    .section-8-img img {
-    width: 90%;
+    width: 100%;
    }
    .section-6 {
     flex-direction: column;
+   }
+   .section-6 {
+    width: 100%;
    }
    .footer-wrapper {
 flex-wrap: wrap;    
