@@ -844,9 +844,14 @@ border: 1.02gpx solid rgb(187, 186, 186);
 .menu__btn {
     display: block;
 }
-   .section-2 p {
-    width: 100%;
-   }
+
+.section-2 {
+    width: 95%;
+}
+
+.services-wrapper {
+    width: calc(100%/1.1);
+}
    .section-3 {
     flex-direction: column;
     width: 100%;
@@ -858,7 +863,15 @@ border: 1.02gpx solid rgb(187, 186, 186);
    }
 
    .services-wrapper {
-    padding-right: 3rem;
+    width: 100%;
+    flex-direction: column;
+   }
+   .services {
+    margin-left: calc(100%/4.75);
+   }
+   .service-description {
+    width: 200px;
+    margin-top: 0.5rem;
    }
    .section-3-img {
     width: 80%;
@@ -890,7 +903,7 @@ width: 100%;}
    }
 
    .section-7-img {
-    width: 100%;
+    width: 95%;
    }
 
    .section-5-heading {
@@ -938,16 +951,16 @@ margin: 0 auto;}
     max-width: 100%;
    }
    .section-8-img {
-    width: 100%;
+    width: 95%;
    }
    .section-8-img img {
-    width: 100%;
+    width: 95%;
    }
    .section-6 {
     flex-direction: column;
    }
    .section-6 {
-    width: 100%;
+    width: 768px;
    }
    .footer-wrapper {
 flex-wrap: wrap;    
