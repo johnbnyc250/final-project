@@ -8,8 +8,7 @@
 * { margin: 0;
   box-sizing: border-box;
   padding: 0;
-  font-family: 'Inter', sans-serif;
-  font-weight: 550;
+  font-family: 'Satoshi', sans-serif;
 }
 
 navigation {
@@ -38,7 +37,7 @@ navigation {
   margin-left: 20px;
   margin-right: 22px;
   color: #3c3c3c;
-  font-weight: 575;
+  font-weight: 500;
 }
 
 .nav-items-register {
@@ -60,7 +59,7 @@ ul {
 .sign-up a {
   background-color: lab(25.9% 63.42 -77.48);
   color: #fff;
-  padding: 0.8rem 1.6rem;
+  padding: 0.5rem 1rem;
   border-radius: 25px;
 }
 
@@ -77,7 +76,7 @@ ul {
 
 .logo h2 {
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Satoshi', sans-serif;
 }
 
  section {
@@ -93,7 +92,7 @@ ul {
 .section-1-text h1 {
 margin-top: 2.2rem;
   font-weight:550;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Satoshi', sans-serif;
   width:90%
 }
 .section-1-img {
@@ -135,7 +134,7 @@ margin-bottom: 1rem;
   border-radius: 8px;
   text-decoration: none;
   font-size:.77rem;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Satoshi', sans-serif;
 }
 .section-1-input {
     border: 1px solid #ccc;
@@ -225,7 +224,7 @@ color:#2f2f2f
 
 .service-title {
     margin-bottom: .12rem;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Satoshi', sans-serif;
     font-size: 1rem;
 }
 
@@ -407,10 +406,10 @@ width: 50%;
    padding: 2px;
     padding-bottom: 1rem;
     color: black;
-    font-family: 'Inter';
+    font-family: 'Satoshi';
     text-align: center; 
     margin-bottom: 1rem;
-    border-bottom: 0.15px solid;
+    border-bottom: 0.15px solid black;
     border-image: linear-gradient(to right, #4d4d4d, #d3d4d5) 1; }
   
 
@@ -534,7 +533,7 @@ border-bottom: 0.15px solid;
     padding: 2px;
     padding-bottom: 1rem;
     color: white;
-    font-family: 'Inter';
+    font-family: 'Satoshi';
     text-align: center; 
     margin-bottom: 1rem;
     border-bottom: 0.15px solid;
@@ -558,10 +557,10 @@ border: 1.02gpx solid rgb(187, 186, 186);
     padding: 2px;
     padding-bottom: 1rem;
     color: black;
-    font-family: 'Inter';
+    font-family: 'Satoshi';
     text-align: center; 
     margin-bottom: 1rem;
-    border-bottom: 0.15px solid;
+    border-bottom: 0.15px solid black;
     border-image: linear-gradient(to right, #4d4d4d, #d3d4d5) 1; }
   .pricing {
     padding-bottom: 1rem;
@@ -572,7 +571,6 @@ border: 1.02gpx solid rgb(187, 186, 186);
   }
 
   .monthly {
-    border-bottom: 1px solid;
     margin-bottom: 1rem;
   }
 
@@ -582,7 +580,7 @@ border: 1.02gpx solid rgb(187, 186, 186);
   }
 
   .section-6 {
-    font-family: 'Inter';
+    font-family: 'Satoshi';
     background-color: #5045f0 ;
     margin-top: 6rem;
   }
@@ -590,8 +588,8 @@ border: 1.02gpx solid rgb(187, 186, 186);
   .footer-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 1180px;
+    justify-content: space-around;
+    width: 100%;
     margin: 0 auto;
     color: white;
     font-size: .95rem;
@@ -769,6 +767,7 @@ border: 1.02gpx solid rgb(187, 186, 186);
     color: #2f2f2f;
     font-size: 2rem;
     margin-bottom: 2.5rem;
+    font-weight: 575;
   }
 
   .love_us {
