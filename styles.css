@@ -877,6 +877,9 @@ border: 1.02gpx solid rgb(187, 186, 186);
 .section-2 {
     width: 95%;
 }
+.section-2-header {
+    width: 100%;
+}
 
 .services-wrapper {
     width: calc(100%/0.9);
@@ -910,7 +913,7 @@ font-size: 0.85rem;
     margin-left: ;
    }
    .service-description {
-    width:600px;
+    width:450px;
     max-width: 100% ;
     min-width: 0 ;
     box-sizing: border-box;
@@ -1027,6 +1030,9 @@ scale: 1.23;
    }
    .section-6 {
     width: 768px;
+   }
+   .features-description-2 {
+    font-size: 1.1rem;
    }
    .footer-wrapper {
 flex-wrap: wrap;    
