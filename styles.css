@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 @import url('https://fonts.cdnfonts.com/css/satoshi');
@@ -7,7 +8,8 @@
 * { margin: 0;
   box-sizing: border-box;
   padding: 0;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 550;
 }
 
 navigation {
@@ -20,12 +22,14 @@ navigation {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  font-weight: 500;
 }
 
 
 .nav-links {
   display: flex;
   gap: 1rem;
+  font-weight: 600;
 }
 
 .nav-items {
@@ -34,6 +38,7 @@ navigation {
   margin-left: 20px;
   margin-right: 22px;
   color: #3c3c3c;
+  font-weight: 575;
 }
 
 .nav-items-register {
@@ -55,7 +60,7 @@ ul {
 .sign-up a {
   background-color: lab(25.9% 63.42 -77.48);
   color: #fff;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1.6rem;
   border-radius: 25px;
 }
 
@@ -72,7 +77,7 @@ ul {
 
 .logo h2 {
     margin: 0;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
  section {
@@ -88,7 +93,7 @@ ul {
 .section-1-text h1 {
 margin-top: 2.2rem;
   font-weight:550;
-  font-family: 'Satoshi', sans-serif;
+  font-family: 'Inter', sans-serif;
   width:90%
 }
 .section-1-img {
@@ -130,7 +135,7 @@ margin-bottom: 1rem;
   border-radius: 8px;
   text-decoration: none;
   font-size:.77rem;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .section-1-input {
     border: 1px solid #ccc;
@@ -220,7 +225,7 @@ color:#2f2f2f
 
 .service-title {
     margin-bottom: .12rem;
-    font-family: 'satoshi', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1rem;
 }
 
@@ -287,11 +292,13 @@ color:#2f2f2f
 
 .steps {
     display: flex;
+    font-weight: 500;
 }
 
-.steps-description {
+.steps-description p {
     display: flex;
     flex-direction: column;
+    font-weight: 600;
 }
 
 .section-4-img {
@@ -334,7 +341,7 @@ width: 50%;
     color: #5c5b5b;
     font-size: 2rem;
     margin-right: 1.75rem;
-    font-family: 'Montserrat';
+    font-family: 'Satoshi';
     font-weight: 550;
 }
 
@@ -346,7 +353,7 @@ width: 50%;
 .steps-description p {
     font-size: 1rem;
     color: #525151;
-    font-weight: 400
+    font-weight: 500;
 }
 
 .section-5 {
@@ -400,7 +407,7 @@ width: 50%;
    padding: 2px;
     padding-bottom: 1rem;
     color: black;
-    font-family: 'Satoshi';
+    font-family: 'Inter';
     text-align: center; 
     margin-bottom: 1rem;
     border-bottom: 0.15px solid;
@@ -434,7 +441,7 @@ border-bottom: 0.15px solid;
 }
 .monthly {
     font-size: 1rem;
-    font-weight: 250;
+    font-weight: 500;
 }
 
 
@@ -527,7 +534,7 @@ border-bottom: 0.15px solid;
     padding: 2px;
     padding-bottom: 1rem;
     color: white;
-    font-family: 'Satoshi';
+    font-family: 'Inter';
     text-align: center; 
     margin-bottom: 1rem;
     border-bottom: 0.15px solid;
@@ -551,7 +558,7 @@ border: 1.02gpx solid rgb(187, 186, 186);
     padding: 2px;
     padding-bottom: 1rem;
     color: black;
-    font-family: 'Satoshi';
+    font-family: 'Inter';
     text-align: center; 
     margin-bottom: 1rem;
     border-bottom: 0.15px solid;
@@ -575,7 +582,7 @@ border: 1.02gpx solid rgb(187, 186, 186);
   }
 
   .section-6 {
-    font-family: 'Satoshi';
+    font-family: 'Inter';
     background-color: #5045f0 ;
     margin-top: 6rem;
   }
